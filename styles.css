@@ -1,0 +1,63 @@
+
+body{
+    text-align: center;
+   
+    background-image: url(images/Empty_Star.png);
+    background-repeat: repeat; /*no tile affect*/
+    background-attachment: fixed;/* text scrolls. over bg*/
+     background-color: #108ac8;
+    background-position: center;
+    color: white; /*color the text white*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif8; /* font stack defaults*/
+
+}
+a:link{
+    
+/* rab white and 100% opacity aka alpha*/   
+text-decoration: none;
+color: #ffffff;
+    
+}
+
+a:hover{
+background-color: rbg(0,0,0);
+text-decoration: none;
+
+}
+
+main{
+margin: auto;
+width: 80%; /*Absolute sizing*/
+
+ padding: 20px;
+border: solid 3px rgba(128,129,128,1);
+/*height:200px*/
+border-radius: 12px 24px;
+text-align: left;
+background-color: rgba(0, 136, 255, 0.35)
+
+}
+
+nav{
+margin-bottom: 20px;
+background-color: rgba(128, 129, 129, 0.52);
+border: dashed 1px rgba(255,255,255,1);
+border-radius: 6px;
+height: 30px;
+padding: 1px 4px 4px 4px;/* top right bottom left*/
+margin: 0 auto;
+width: 80%;
+color: white
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end; /* Pushes content to the right */
+}
+
+.logo {
+ float: right;
+}
+
+
+
