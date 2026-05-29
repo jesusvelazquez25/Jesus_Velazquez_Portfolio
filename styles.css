@@ -59,11 +59,7 @@ color: white
  float: right;
 }
 
-p 
-{ 
-font-size 20 
--large; 
+font {
+size: 30
 
 }
-
-
